@@ -1,0 +1,184 @@
+@media only screen and (max-width: 600px){
+
+body{
+    max-width:100%;
+}
+    ul{
+        list-style-type: none;  
+        padding-top:10px;
+        max-width:100%;
+    }
+
+    li{
+    display: inline;
+    max-width:100%;
+    }
+
+    .sub-menu a{
+        color:#333;  
+        text-decoration: none;
+        margin-left:15px;
+        max-width:100%;
+
+    }
+    
+    a:hover{
+        color:darkgrey;
+        text-decoration: none;
+
+    }
+    
+    .sub-menu{
+        text-align: center;
+        margin-top:2%;
+        color:#333;
+        font-size: 0.6em;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    #title2{
+        width:50%;
+        margin-left: -80px;
+        margin-right: 30px;
+        margin-top: 2px;
+        
+        font-size:12px;
+    }
+  
+    #title2 a{
+        margin-left: 0;
+        margin-right: 0px;
+    }
+  
+   .nav-item{
+    display:none;
+   }
+
+    .input-group{
+        width:40%; 
+        position: relative;
+        left:15px;
+    }
+
+    table{
+        width:100%;
+        font-size:0.5em;
+    }
+
+    .picture{
+        height:400px;
+    }
+
+    .text{
+        margin-top: 100px;
+    }
+
+    #about{position: relative;
+        top:-200px;
+    }    
+
+    .ruins{
+        opacity: 0;
+        width:100%;
+    }
+    .card-group{
+        margin-top: -100px;
+    background-image: url("./Img/ruins.jpg");
+    background-size:fill ;
+    width:100%;
+    margin-bottom: -200px;
+    }
+
+    .banner{
+        width: 100%;
+        font-size: 2.5em;
+    }
+
+    .hotel-1 img{
+        width:100%;
+    }
+
+    .hotel-1{
+        height:250px;
+    }
+
+    .price, .hotel-info, .hotel-link{
+        display:none;
+    }
+
+
+    .contact{
+        height:150px;
+        font-size:3.0em
+    }
+    .contact img{
+        width:50px;
+    }
+
+    .form-title{
+        height:500px;
+        padding:20px;
+        font-size:1.0em
+    }
+ 
+    .sidelinks{
+        margin-left: -20px;
+    }
+   
+
+
+
+  .zoo-text-box{
+      margin-left: 28%;
+      width:100%;
+  }
+    .zoo-slideshow{
+        width:100%;
+        margin-left: -20%;
+    }
+
+    
+
+
+
+    .address{
+        margin-left: 0;
+        max-width: 100%;
+      }
+      #carouselExampleFade img{
+        margin-top: 15%;
+        height:300px;
+      }
+
+
+
+#about{
+    margin-top: 50px;
+}
+
+#showtimes h1{
+    background-color: darkgrey;
+    font-size: 5em;
+    font-weight: 300;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

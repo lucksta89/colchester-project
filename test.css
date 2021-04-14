@@ -1,0 +1,344 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+ul{
+    list-style-type: none;  
+    padding-top:10px;
+
+}
+li{
+    display:inline;
+
+}
+a{
+    color:#333;  
+    text-decoration: none;
+    margin-left:50px;
+
+}
+
+a:hover{
+    color:darkgrey;
+    text-decoration: none;
+
+}
+
+.sub-menu{
+    text-align: center;
+    margin-top:2%;
+    color:#333;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    font-weight: 500;
+    width:100%;
+}
+
+span{
+    color:lightcoral;
+    font-weight: 900;
+    font-size:1.5em;
+    margin-left:40px;  
+}
+
+span1{
+    font-weight: 900;
+    font-size:1.5em;
+    color:white;
+
+}
+span2{
+    color:skyblue;
+    font-weight: 900;
+        font-size:1.5em;
+}
+
+.input-group{
+    width:25%;
+    position: relative;
+    left:32%;
+}
+
+
+/* end navbar */
+
+.card-text{
+    font-size:0.9em;
+}
+
+
+
+/* picture */
+
+
+
+.picture{
+    position:relative;
+    top:50px;
+    width:100%;
+    height:700px;
+}
+
+.text{
+    position: relative;
+    bottom:300px;
+    font-size:4em;
+    width:100%;
+    text-align: center;
+    background-color: lightgrey;
+    opacity: 0.7;
+}
+.text img{
+    height:50px;
+}
+/* end picture */
+
+h1{
+    font-size:1em;
+}
+
+/*table*/
+
+table{
+    position: relative;
+    text-align: center;
+    width:100%;
+
+}
+
+th{
+    background-color: lightgrey;
+    border:1px solid black;
+    text-transform: uppercase;
+}
+td{
+    border:1px solid black;
+    padding:5px;
+}
+
+
+/* end table */
+
+
+
+.text2{
+    width:50%;
+    font-size:1em;
+    word-spacing: normal;
+}
+
+.text2 p {
+    font-size: 0.9em;
+    float:left;
+}
+#p2{
+    float:right;
+    word-spacing: normal;
+    width:50%;
+    font-size: 0.9em;
+
+}
+
+
+.banner{
+    font-size:5em;
+    padding:5%;
+    color:#333;
+    background-color:lightgrey;
+    word-spacing: normal;
+}
+.banner img {
+    width:10%;
+}
+
+
+.hotels{
+    font-size: 1.3em;
+    word-spacing: normal;
+    
+}
+.title{
+    font-size:1.5em;
+    padding:5%;
+    text-transform: uppercase;
+    word-spacing: normal;
+}
+.sub-title{
+    font-size:0.7em;
+    margin:1%;
+
+}
+
+
+.hotel-1{
+    margin:5%;
+    background-color: rgb(230, 227, 227);
+    padding:2%;
+    height:220px;
+    word-spacing: normal;
+}
+
+.hotel-1 img{
+    width:20%;
+    height:170px;
+    float:left;
+    padding-right: 3%;
+}
+.hotel-title{
+    font-size:1.5em;
+    word-spacing: normal;
+}
+
+.hotel-info{
+    font-size: 0.6em;
+    text-align: left;
+    word-spacing: normal;
+}
+
+.price{
+    float:right;
+    text-align: right;
+    font-size: 0.5em;
+    margin-top: -5px;
+    word-spacing: normal;
+}
+
+
+
+
+.contact{
+    position:relative;
+    background-color: lightgrey;
+    width:100%;
+    height:200px;
+    margin-top:100px;
+    padding:40px;
+    color:#333;
+    font-size: 5em;
+    word-spacing: normal;
+}
+.contact img{
+    width:5%;
+}
+
+
+
+.address{position: relative;
+    margin-top:100px;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: normal;
+}
+
+footer{
+    position: relative;
+        font-weight: 800;
+        font-size: larger;
+        text-align:center;
+        margin-top:5%;
+        margin-bottom: -5%;
+}
+
+
+.form-title{
+    width:100%;
+    height:60px;
+    font-size:2em;
+    word-spacing: normal;
+}
+
+
+.form input[type=text]{
+ text-align: center;
+ width: 100%;
+ padding: 2px 2px;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+.form textarea{
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   }
+
+   .form input[type=submit]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   }
+
+   .form select{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   }
+
+.container{
+   word-spacing:normal;
+}
+.card{
+    word-spacing:normal;
+}
+
+
+#deals{
+    word-spacing:normal
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+
+  #carouselExampleFade{
+      z-index: 0;
+  }
+
+
+  .img-top{
+      width:75%;
+      margin-left:15%;
+  }
+
+
+
+
+
+
+
+
+
+  
