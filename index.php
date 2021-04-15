@@ -36,10 +36,11 @@ if (isset($_POST['submit'])) {
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="test.css">
-        <link rel="stylesheet" type="text/css" href="test2.css">
         <link rel="shortcut icon" href="building.svg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="test2.css">
         <title>Welcome to colchester</title>
       </head>
     <body>
@@ -49,7 +50,7 @@ if (isset($_POST['submit'])) {
             <li class="nav-item">
                 <a class="nav-link active" href="index.php">Home</a>
             </li>
-            <a href="index.html"><li id="title2"><span>welcome</span><span1>2</span1><span2>colchester</span2></a>
+            <a href="index.php"><li id="title2"><span>welcome</span><span1>2</span1><span2>colchester</span2></a>
             </li></a>
             <li div class="input-group">
                 <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
@@ -66,7 +67,7 @@ if (isset($_POST['submit'])) {
             <li><a href="article.php">reviews</a>
 
             <div class="dropdown">
-                <li><a href="">Accommodation</a></li>
+            <li><a href="accommodation.html">Accommodation</a></li>
                 <div class="dropdown-content">
                 <li><a href="">#</a>
                 <li><a href="">#</a>
@@ -349,6 +350,15 @@ if (isset($_POST['submit'])) {
     
 
 </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  
     </body>
 </html>
 
