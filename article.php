@@ -9,20 +9,12 @@ $location = $_POST['location'];
 $message = $_POST['message']; 
 
 echo $firstname, $lastname, $email, $location, $message;
-
+ 
 $query = "INSERT INTO form (id, firstname, lastname, email, location, message) VALUES ('', '$firstname', '$lastname', '$email', '$location', '$message')";
       $result = mysqli_query($connection, $query);
-if(!$result) {
-    
-    die("QUERY FAILED". mysqli_error($connection));
-}
 
-}
- 
-
-
-?>
-
+ }
+ ?>
 
 
 
@@ -32,133 +24,144 @@ if(!$result) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="stylesheet" type="text/css" href="test2.css">
     <title>article</title>
 </head>
 <body>
-    
 
-	<div class="navbar">
-    <a href="index-holiday.html">Home</a>
-		<a href="newfile.html">Holidays</a>
+<ul class="nav nav-tabs bg-dark">
+    <li class="nav-item">
+        <a class="nav-link active" href="index.php">Home</a>
+    </li>
+    <a href="index.html"><li id="title2"><span>welcome</span><span1>2</span1><span2>colchester</span2></a>
+    </li></a>
+    <li div class="input-group">
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+            aria-describedby="search-addon" />
+        <button type="button" class="btn btn-outline-light">search</button>
+        </div></li>
+</ul>
+        <hr>
+        <div class="sub-menu">
+            <li><a href="things-to-do.html">things to-do</a></li>
+            <li><a href="colchester-zoo.html">colchester zoo</a></li>
+            <li><a href="newsletter.html">News</a></li>
+            <li><a href="academy_cinema.html">colchester cinema</a></li>
+            <li><a href="article.php">Reviews</a>
 
-		<div class="dropdown">
-			<button class="dropbtn">Hotels</a>
-				<i class="fa fa-caret-down"></i>
-			</button>
-
-
-			<div class="dropdown-content">
-				<a href="Hotels.html">All Hotels</a>
-				<a href="africa2.html">All Africa hotels</a>
-				<a href="newyork2.html">All Miami hotels</a>
-				<a href="london2.html">All london hotels</a>
-				<a href="paris2.html">All Paris hotels</a>
-
-			</div>
-		</div>
-
-
-		<div class="dropdown">
-			<button class="dropbtn">Flights</a>
-				<i class="fa fa-caret-down"></i>
-			</button>
-
-
-			<div class="dropdown-content">
-				<a href="flights.html">All flights</a>
-
-			</div>
-		</div>
-
-		<div class="contact">
-			<a href="contact form.html">Contact us</a>
-		</div>
-
-	</div>
+            <div class="dropdown">
+                <li><a href="index-holiday.html">holiday-site</a></li>
+                <div class="dropdown-content">
+                <li><a href="newfile.html">package holidays</a>
+                <li><a href="Hotels.html">all hotels</a>
+                <li><a href="flights.html">flights</a>
+                <li><a href="africa2.html">africa hotels</a>
+                <li><a href="newyork2.html">miami hotels</a>
+                <li><a href="london2.html">london hotels</a>
+                <li><a href="africa2.html">africa hotels</a>
+            </div>
+        </div>
+    <hr>
+          
 
 
 
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Review and comment section.</h1>
+    <hr>
+    <p class="lead">Feel free to let us know how your visit at colchester was and you have any recommendations
+        or idea's </p>
+  </div>
+</div>
 
 
-      <!------------ articles----------->
-   
-      <main>
-    <div class="article1">
-        <h1 id="title">welcome</h1>
-        <p id="text">on todays article we will be discussing<br> how every day take 24 hours
-            and not 23 hours
-        </p>
-        <img src="images/beach.jpg" alt="beach" width="50%" height="50%">
-        <footer>&copy dluck</footer>
-     </div>
 
 
-     <div class="article2">
-         <h1 id="title2">good morning</h1>
-         <p id="text2">in todays article we are going to discuss<br> why the sun sets and the
-             moon rises yet the stars are always visible!
-        </p>
-        <img src="images/beach1.jpg" alt="beach2" width="50%" height="50%" > 
-        <footer>&copy daniel luck</footer>
-     </div>
 
 
-     <div class="article3">
-         <h1 id="title3">good afternoon</h1>
-         <p id="text3">in this afternoons article we are going to discuss the effects of not<br>
-        leaving the house on a regular basis
-    </p>
-        <img src="images/beach2.jpg" alt="beach3" width="50%" height="50%">
-        <footer>&copy mr luck</footer>
-     </div>
+
+<!------------ articles----------->
+
+   <?php
+   $query = "SELECT * FROM form";
+$result = mysqli_query($connection, $query);
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+$firstname = $row['firstname'];
+$lastname = $row['lastname'];
+$email = $row['email'];
+$location = $row['location'];
+$message = $row['message'];
 
 
-     <div class="article4">
-         <h1 id="title4">good evening</h1>
-         <p id="text4">now lets discuss what the problem between the rich and poor are,<br> 
-            well every one need money ...(we all got to eat!)
-    </p>
-    <img src="images/beach3.jpg" alt="beach4" width="50%" height="50%">
-    <footer>&copy master luck</footer>
-     </div>
 
 
-     <div class="article5">
-         <h1 id="title5">good night</h1>
-         <p id="text5">on tonights articles we will discuss the reason conspiracy behind <br>
-        ufo's and alaska's mystery's</p>
-         <img src="images/beachpana.jpg" alt="beachpana" width="50%" height="50%">
-         <footer>&copy luck</footer>
-     </div>
 
 
-     <div class="article6">
-         <h1 id="title6">good bye</h1>
-         <p id="text6">to end the night we are going to discuss the event in world war one<br>
-            and world war two and the death count in each country!
-         </p>
-         <img src="images/beachpana2.jpg" alt="beachpana2" width="50%" height="50%">
-         <footer>&copy luck family</footer>
-     </div>
+echo "
+
+<div class='article1'> 
+<p style='font-size:1.5em;'>Review/Comment 
+</p><br>
+
+<p style='color:black;border:1px lightgrey solid;height:50px;width:50%;
+font-size:1.2em;padding:10px;'>
+<strong>Your name: </strong>$firstname
+$lastname<br></p>
+
+<p style='color:black;border:1px lightgrey solid;height:50px;
+width:50%;font-size:1.2em;padding:10px;'>
+<strong>Your email: </strong>$email <br></p>
+
+<p style='color:black;border:1px lightgrey solid;height:50px;width:50%;font-size:1.2em;padding:10px'>
+<strong>Your location: </strong>$location<br> </p>
+
+<p style='color:black;border:1px lightgrey solid;height:240px;width:50%;
+font-size:1.2em;padding:10px;float:right;margin-top:-198px;'>
+<strong>Your message:</strong><br>$message</div></p>
+
+";
+
+}}
+
+?>
+ <!------------end articles----------->
 
 
-     <div class="article7">
-         <h1 id="title7">hello again!</h1>
-         <p id="text7">once again we are here to talk about the events of the ongoing<br>
-        battle between us and corona </p>
-        <img src="images/africapic2.jpg" alt="afrciapic" width="50%" height="50%">
-        <footer>&copy the lucky group</footer>
-     </div>
 
-       <!------------end articles----------->
+
+
+
+
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+<h1 class="display-4">Enter you information here!.    
+<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='currentColor' class='bi bi-info-square-fill' viewBox='0 0 16 16'>
+<path d='M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z'/>
+</svg>
+</h1>
+<hr>
+</div>
+</div>
+
+
+
+
+
+
+
 
          <!------------ FORM ----------->
 
-     <div class="review">
+        <div class="form" style="width:50%;margin-left:25%;">
          <form action="article.php" method="post">
-         <h1 id="contactform">write a review here!</h1>
+      
+     
+      
 
          <label id="first-name">First name:</label>
          <input type="text" name="first-name" placeholder="Enter name here!"><br>
@@ -183,10 +186,9 @@ if(!$result) {
         
          <input type="submit" value="submit" name="submit">
         </form><br>
-        <footer>&copy lucky corps!</footer>
+    
      </div>
-
-     </main>
+     <footer> &copy;colchester-2021</footer> 
      
   <!------------ END FORM ----------->
 

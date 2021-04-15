@@ -333,9 +333,26 @@ footer{
       margin-left:15%;
   }
 
+  .article1{
+    border:1px lightgrey solid;
+    margin-left: 25%;
+    width:50%;
+    height:300px;
+    text-align: center;
+    font-size: 0.8em;
+  }
 
 
 
+
+  .review{
+      text-align: center;
+    border:1px black solid;
+    margin-left: 25%;
+    width:50%;
+    height:500px;
+    box-shadow: #333 5px 5px 5px 5px;
+  }
 
 
 

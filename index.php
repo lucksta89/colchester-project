@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
 
         <ul class="nav nav-tabs bg-dark">
             <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active" href="index.php">Home</a>
             </li>
             <a href="index.html"><li id="title2"><span>welcome</span><span1>2</span1><span2>colchester</span2></a>
             </li></a>
@@ -63,6 +63,8 @@ if (isset($_POST['submit'])) {
             <li><a href="colchester-zoo.html">colchester zoo</a></li>
             <li><a href="newsletter.html">News</a></li>
             <li><a href="academy_cinema.html">colchester cinema</a></li>
+            <li><a href="article.php">article</a>
+
             <div class="dropdown">
                 <li><a href="index-holiday.html">holiday-site</a></li>
                 <div class="dropdown-content">
@@ -330,7 +332,7 @@ if (isset($_POST['submit'])) {
    
 
    
-<div class="form-title">
+<div class="form" style="width:50%;margin-left:25%">
     <h1>If you would like to contact us, please leave us an email below!</h1>
          <form action="" method="post">
             first name:<input name="name" type="text" placeholder="enter here"> <br>
