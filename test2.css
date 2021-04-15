@@ -150,24 +150,61 @@ body{
 
 
 #about{
-    margin-top: 50px;
+    margin-top: 300px;
 }
 
-#showtimes h1{
-    background-color: darkgrey;
-    font-size: 5em;
-    font-weight: 300;
-    color:black;
+#showtimes{
+  margin-left: 7%;
+}
+
+.col-md-3{
+    width:80%;
+}
+
+
+.article1{
+    width:100%;
+    margin-left:0.5%;
+    font-size:0.5em;
 }
 
 
 
 
+                    /* new letter  */
 
 
+    .container .top-pic-text{
+      position: relative;
+      left:15%;
+    }
 
+       .container .article{
+    position: relative;
+    text-align: center;
+    background-color: lightblue;
+    float:none;
+    width:100%;
+    margin-bottom:5%;
+}
+.container .article-2{ 
+    position: relative;
+    text-align: center;
+    background-color: lightblue;
+    float:none;
+    width:100%;
+    margin-left: -0%;
+    margin-bottom:5%;
 
-
+}
+.container .article-3{ 
+    position: relative;
+    text-align: center;
+    background-color: lightblue;
+    float:none;    
+    width:100%;
+    
+}
 
 
 

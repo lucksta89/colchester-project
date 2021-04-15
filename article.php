@@ -70,77 +70,7 @@ $query = "INSERT INTO form (id, firstname, lastname, email, location, message) V
     <hr>
           
 
-
-
-    <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Review and comment section.</h1>
-    <hr>
-    <p class="lead">Feel free to let us know how your visit at colchester was and you have any recommendations
-        or idea's </p>
-  </div>
-</div>
-
-
-
-
-
-
-
-<!------------ articles----------->
-
-   <?php
-   $query = "SELECT * FROM form";
-$result = mysqli_query($connection, $query);
-if ($result->num_rows > 0) {
-  // output data of each row
-  while($row = $result->fetch_assoc()) {
-$firstname = $row['firstname'];
-$lastname = $row['lastname'];
-$email = $row['email'];
-$location = $row['location'];
-$message = $row['message'];
-
-
-
-
-
-
-echo "
-
-    <div class='article1'> 
-    <p style='font-size:1.5em;'>Review/Comment 
-    </p><br>
-
-    <p style='color:black;border:1px lightgrey solid;height:60px;width:50%;
-    font-size:1.2em;padding:10px;'>
-    <strong>Your name: </strong>$firstname
-    $lastname<br></p>
-
-    <p style='color:black;border:1px lightgrey solid;height:60px;
-    width:50%;font-size:1.2em;padding:10px;'>
-    <strong>Your email: </strong>$email <br></p>
-
-    <p style='color:black;border:1px lightgrey solid;height:60px;width:50%;font-size:1.2em;padding:10px'>
-    <strong>Your location: </strong>$location<br> </p>
-
-    <p style='color:black;border:1px lightgrey solid;height:258px;width:50%;
-    font-size:1.2em;padding:10px;float:right;margin-top:-250px;word-wrap: break-word;'>
-    <strong>Your message:</strong><br>$message</div></p>
-
-";
-
-}}
-
-?>
- <!------------end articles----------->
-
-
-
-
-
-
-
+    
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
 <h1 class="display-4">Enter you information here!.    
@@ -149,19 +79,14 @@ echo "
 </svg>
 </h1>
 <hr>
+    <p class="lead">Feel free to let us know how your visit at colchester was and you have any recommendations
+        or idea's </p>
 </div>
 </div>
 
 
 
-
-
-
-
-
-         <!------------ FORM ----------->
-
-        <div class="form" style="width:50%;margin-left:25%;">
+<div class="form" style="width:50%;margin-left:25%;">
          <form action="article.php" method="post">
       
      
@@ -192,6 +117,73 @@ echo "
         </form><br>
     
      </div>
+
+     <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Review and comment section.</h1>
+
+  </div>
+</div>
+
+
+
+<!------------ articles----------->
+
+   <?php
+   $query = "SELECT * FROM form";
+$result = mysqli_query($connection, $query);
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+$firstname = $row['firstname'];
+$lastname = $row['lastname'];
+$email = $row['email'];
+$location = $row['location'];
+$message = $row['message'];
+
+
+
+
+
+
+echo "
+
+    <div class='article1'> 
+    <p style='font-size:1.5em;'>Review/Comment 
+    </p><br>
+
+    <p style='color:black;border:1px lightgrey solid;
+    height:60px;width:50%;
+    font-size:1.2em;padding:10px;'>
+    <strong>Your name: </strong>$firstname
+    $lastname<br></p>
+
+    <p style='color:black;border:1px lightgrey solid;height:60px;
+    width:50%;font-size:1.2em;padding:10px;'>
+    <strong>Your email: </strong>$email <br></p>
+
+    <p style='color:black;border:1px lightgrey solid;height:60px;width:50%;font-size:1.2em;padding:10px'>
+    <strong>Your location: </strong>$location<br> </p>
+
+    <p style='color:black;border:1px lightgrey solid;height:255px;
+    width:50%;
+    font-size:1.2em;padding:10px;float:right;margin-top:-250px;
+    word-wrap: break-word;'>
+    <strong>Your message:</strong><br>$message</div></p>
+
+";
+
+}}
+
+?>
+ <!------------end articles----------->
+
+
+
+
+         <!------------ FORM ----------->
+
+    
      <footer> &copy;colchester-2021</footer> 
      
   <!------------ END FORM ----------->
