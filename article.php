@@ -49,18 +49,18 @@ $query = "INSERT INTO form (id, firstname, lastname, email, location, message) V
             <li><a href="colchester-zoo.html">colchester zoo</a></li>
             <li><a href="newsletter.html">News</a></li>
             <li><a href="academy_cinema.html">colchester cinema</a></li>
-            <li><a href="article.php">Reviews</a>
+            <li><a href="article.php">reviews</a>
 
             <div class="dropdown">
-                <li><a href="index-holiday.html">holiday-site</a></li>
+                <li><a href="">Accommodation</a></li>
                 <div class="dropdown-content">
-                <li><a href="newfile.html">package holidays</a>
-                <li><a href="Hotels.html">all hotels</a>
-                <li><a href="flights.html">flights</a>
-                <li><a href="africa2.html">africa hotels</a>
-                <li><a href="newyork2.html">miami hotels</a>
-                <li><a href="london2.html">london hotels</a>
-                <li><a href="africa2.html">africa hotels</a>
+                <li><a href="">#</a>
+                <li><a href="">#</a>
+                <li><a href="">#<a>
+                <li><a href="">#</a>
+                <li><a href="">#</a>
+                <li><a href="">#</a>
+                <li><a href="">#</a>
             </div>
         </div>
     <hr>
@@ -104,25 +104,25 @@ $message = $row['message'];
 
 echo "
 
-<div class='article1'> 
-<p style='font-size:1.5em;'>Review/Comment 
-</p><br>
+    <div class='article1'> 
+    <p style='font-size:1.5em;'>Review/Comment 
+    </p><br>
 
-<p style='color:black;border:1px lightgrey solid;height:50px;width:50%;
-font-size:1.2em;padding:10px;'>
-<strong>Your name: </strong>$firstname
-$lastname<br></p>
+    <p style='color:black;border:1px lightgrey solid;height:60px;width:50%;
+    font-size:1.2em;padding:10px;'>
+    <strong>Your name: </strong>$firstname
+    $lastname<br></p>
 
-<p style='color:black;border:1px lightgrey solid;height:50px;
-width:50%;font-size:1.2em;padding:10px;'>
-<strong>Your email: </strong>$email <br></p>
+    <p style='color:black;border:1px lightgrey solid;height:60px;
+    width:50%;font-size:1.2em;padding:10px;'>
+    <strong>Your email: </strong>$email <br></p>
 
-<p style='color:black;border:1px lightgrey solid;height:50px;width:50%;font-size:1.2em;padding:10px'>
-<strong>Your location: </strong>$location<br> </p>
+    <p style='color:black;border:1px lightgrey solid;height:60px;width:50%;font-size:1.2em;padding:10px'>
+    <strong>Your location: </strong>$location<br> </p>
 
-<p style='color:black;border:1px lightgrey solid;height:240px;width:50%;
-font-size:1.2em;padding:10px;float:right;margin-top:-198px;'>
-<strong>Your message:</strong><br>$message</div></p>
+    <p style='color:black;border:1px lightgrey solid;height:258px;width:50%;
+    font-size:1.2em;padding:10px;float:right;margin-top:-250px;word-wrap: break-word;'>
+    <strong>Your message:</strong><br>$message</div></p>
 
 ";
 

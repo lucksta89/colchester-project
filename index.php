@@ -63,18 +63,18 @@ if (isset($_POST['submit'])) {
             <li><a href="colchester-zoo.html">colchester zoo</a></li>
             <li><a href="newsletter.html">News</a></li>
             <li><a href="academy_cinema.html">colchester cinema</a></li>
-            <li><a href="article.php">article</a>
+            <li><a href="article.php">reviews</a>
 
             <div class="dropdown">
-                <li><a href="index-holiday.html">holiday-site</a></li>
+                <li><a href="">Accommodation</a></li>
                 <div class="dropdown-content">
-                <li><a href="newfile.html">package holidays</a>
-                <li><a href="Hotels.html">all hotels</a>
-                <li><a href="flights.html">flights</a>
-                <li><a href="africa2.html">africa hotels</a>
-                <li><a href="newyork2.html">miami hotels</a>
-                <li><a href="london2.html">london hotels</a>
-                <li><a href="africa2.html">africa hotels</a>
+                <li><a href="">#</a>
+                <li><a href="">#</a>
+                <li><a href="">#<a>
+                <li><a href="">#</a>
+                <li><a href="">#</a>
+                <li><a href="">#</a>
+                <li><a href="">#</a>
             </div>
         </div>
     <hr>
