@@ -60,6 +60,7 @@ if (isset($_POST['submit'])) {
         </ul>
         <hr>
         <div class="sub-menu">
+        <ul>
             <li><a href="things-to-do.html">things to-do</a></li>
             <li><a href="colchester-zoo.html">colchester zoo</a></li>
             <li><a href="newsletter.html">News</a></li>
@@ -67,35 +68,35 @@ if (isset($_POST['submit'])) {
             <li><a href="article.php">reviews</a>
 
             <div class="dropdown">
-            <li><a href="accommodation.html">Accommodation</a></li>
+            <ul><a href="accommodation.html">Accommodation</a></li>
                 <div class="dropdown-content">
-                <li><a href="">#</a>
-                <li><a href="">#</a>
-                <li><a href="">#<a>
-                <li><a href="">#</a>
-                <li><a href="">#</a>
-                <li><a href="">#</a>
-                <li><a href="">#</a>
+                <li><a href="">#</a></li>
+                <li><a href="">#</a></li>
+                <li><a href="">#<a></li>
+                <li><a href="">#</a></li>
+                <li><a href="">#</a></li>
+                <li><a href="">#</a></li>
+                <li><a href="">#</a></li>
+            </ul>
             </div>
         </div>
     <hr>
-          
-    
+        
+
     
     <div class="image">
-        <div class="container">
             <img src="Img/town.jpg"alt="picture"class="picture">
                 <div class="text">welcome to colchester
                     <img src="Img/award-fill.svg"></div>
-                </div>
-        </div>
+    </div>
     
 
         <div id="about"> 
-        <div class="card">
+        <div class="card-body">
             <div class="card-header"style="font-size:2.5em;text-align:left">
                 Colchester ruins!
             </div>
+            
             <div class="card-body">
               <blockquote class="blockquote mb-0"style="font-size:0.9em;margin-top:2%;">
                 <p> this is the ruins of colchester 
