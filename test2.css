@@ -167,8 +167,6 @@ body{
 }
 
 
-
-
                     /* new letter  */
 
 
@@ -203,6 +201,59 @@ body{
     width:100%;
     
 }
+
+/*    accommodation */
+
+.list-group-item{
+    width:300%;
+
+}
+
+.card{
+    text-align: center;
+    position: relative;
+    left:5%;
+}
+
+.slideshow3{
+ display:none;
+}
+
+.sidebyside{
+    position:relative;
+    display: flex;
+    height:200px;
+    margin-bottom: 350px;
+}
+
+.sidebyside img{
+    height:200px;
+    margin-bottom:10px;    
+    padding-bottom: 50px;
+
+}
+
+.covid{
+    margin-top: 50px;
+}
+
+
+.all-in-one{
+position: relative;
+margin-left: 5%;
+width:125%;
+
+}
+
+.all-in-one-hidden{
+    display:none;
+}
+
+.jumbotron h1{
+    font-size: 1.8em;
+}
+
+
 
 
 
