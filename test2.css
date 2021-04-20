@@ -2,6 +2,7 @@
 
 body{
     max-width:100%;
+    width:100%;
 }
     ul{
         list-style-type: none;  
@@ -212,7 +213,6 @@ body{
 .card{
     text-align: center;
     position: relative;
-    left:5%;
 }
 
 .slideshow3{
@@ -240,9 +240,8 @@ body{
 
 .all-in-one{
 position: relative;
-margin-left: 5%;
-width:125%;
-
+margin-left: 0%;
+width:510px;
 }
 
 .all-in-one-hidden{
@@ -252,6 +251,15 @@ width:125%;
 .jumbotron h1{
     font-size: 1.8em;
 }
+
+.card{
+    width:100%;
+}
+
+
+
+
+
 
 
 
