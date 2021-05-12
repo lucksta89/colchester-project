@@ -8,6 +8,7 @@ body{
         list-style-type: none;  
         padding-top:10px;
         max-width:100%;
+
     }
 
     li{
@@ -15,12 +16,15 @@ body{
     max-width:100%;
     }
 
+
     .sub-menu a{
         color:#333;  
         text-decoration: none;
-        margin-left:15px;
         max-width:100%;
-
+        margin: 2%;
+    }
+    .dropdown{
+        margin-left: 3%;
     }
     
     a:hover{
@@ -35,7 +39,9 @@ body{
         color:#333;
         font-size: 0.6em;
         text-transform: capitalize;
-        font-weight: 500;
+        font-weight: 500;  
+        margin-left: -1%;
+
     }
 
     #title2{
@@ -66,6 +72,9 @@ body{
         width:100%;
         font-size:0.5em;
     }
+    .table{
+        margin-bottom: 150px;
+    }
 
     .picture{
         height:400px;   
@@ -80,15 +89,12 @@ body{
         opacity: 0;
         width:100%;
 
-    }
-    .card-group{
-        margin-top: -100px;
-    background-image: url("./Img/ruins.jpg");
-    background-size:fill ;
-    width:100%;
-    margin-bottom: -200px;
-    }
 
+    }
+.group{
+    margin-top: 250px;
+    margin-bottom: -500px;
+}
     .banner{
         width: 100%;
         font-size: 2.5em;
@@ -121,20 +127,19 @@ body{
         font-size:1.0em
     }
  
-    .sidelinks{
-        margin-left: -20px;
-    }
-   
 
 
+#showtimes{
+    width:80%;
+    margin-left: 5%;
+}
 
   .zoo-text-box{
-      margin-left: 28%;
       width:100%;
   }
     .zoo-slideshow{
         width:100%;
-        margin-left: -20%;
+  
     }
 
     .address{
@@ -148,19 +153,6 @@ body{
       }
 
 
-#about{
-    margin-top: 300px;
-}
-
-#showtimes{
-  margin-left: 7%;
-}
-
-.col-md-3{
-    width:80%;
-}
-
-
 .article1{
     width:100%;
     margin-left:0.5%;
@@ -170,6 +162,12 @@ body{
 
                     /* new letter  */
 
+    .top-pic{
+        display: none;
+    }
+.album{
+    margin-top: -15%;
+}
 
     .container .top-pic-text{
       position: relative;
@@ -207,14 +205,15 @@ body{
 
 .list-group-item{
     width:300%;
-
 }
 
 .card{
     text-align: center;
-    position: relative;
 }
 
+.sidelinks{
+    width:80%;
+}
 .slideshow3{
  display:none;
 }
@@ -241,7 +240,7 @@ body{
 .all-in-one{
 position: relative;
 margin-left: 0%;
-width:510px;
+width:100%;
 }
 
 .all-in-one-hidden{
@@ -251,9 +250,8 @@ width:510px;
 .jumbotron h1{
     font-size: 1.8em;
 }
-
-.card{
-    width:100%;
+.jumbotron{
+    margin-bottom: 25%;
 }
 
 

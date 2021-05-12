@@ -60,7 +60,7 @@ if (isset($_POST['submit'])) {
         </ul>
         <hr>
         <div class="sub-menu">
-        <ul>
+        
             <li><a href="things-to-do.html">things to-do</a></li>
             <li><a href="colchester-zoo.html">colchester zoo</a></li>
             <li><a href="newsletter.html">News</a></li>
@@ -68,7 +68,7 @@ if (isset($_POST['submit'])) {
             <li><a href="article.php">reviews</a>
 
             <div class="dropdown">
-            <ul><a href="accommodation.html">Accommodation</a></li>
+            <a href="accommodation.html">Accommodation</a></li>
                 <div class="dropdown-content">
                 <li><a href="">#</a></li>
                 <li><a href="">#</a></li>
@@ -77,7 +77,7 @@ if (isset($_POST['submit'])) {
                 <li><a href="">#</a></li>
                 <li><a href="">#</a></li>
                 <li><a href="">#</a></li>
-            </ul>
+            
             </div>
         </div>
     <hr>
@@ -108,7 +108,7 @@ if (isset($_POST['submit'])) {
             </div>
           </div>
 
-          <div class="card-body">
+          <div class="table">
             <h5 class="card-title" id="table" style="font-size:2.5em">Tour times!</h5>
 
       <table id="table">
@@ -161,11 +161,12 @@ if (isset($_POST['submit'])) {
   </div> 
  </div>
 </div>
-          <div class="card text-center">
+         
+      <div class="group">
             <div class="card-header">
-             <img src="Img/ruins.jpg" class="ruins">
+             <img src="Img/ruins.jpg" width="100%" class="ruins">
 
-             <div class="card-group"style="position: relative;bottom:300px;opacity: 0.7;">
+             <div class="card-group"style="position: relative;bottom:500px;opacity: 0.7;">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Roman Church</h5>
@@ -195,8 +196,11 @@ if (isset($_POST['submit'])) {
                 </div>
               </div>
             </div>
+      </div>
+      
+      <hr>
 
-        <div class="card" style="width:80%;margin:10%">
+        <div class="card">
             <img src="Img/highwoods6.jfif" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-text"style="font-size:0.9em">
@@ -255,7 +259,7 @@ if (isset($_POST['submit'])) {
 
 
     <div class="hotel-1">
-        <a href="Hotels.html"><img src="Img/hotel1.jfif"></a>
+        <a href="accommodation.html"><img src="Img/hotel1.jfif"></a>
                 <div class="hotel-title">    
                     Wivenhoe House Hotel<hr>               
                     <div class="price">
@@ -276,14 +280,14 @@ if (isset($_POST['submit'])) {
                     </div>
                   </div>     
                   <div class="hotel-link">
-                    <a href="Hotels.html">Take a look</a></div>
+                    <a href="accommodation.html">Take a look</a></div>
             
     </div>
 
 
 
     <div class="hotel-1">
-        <a href="Hotels.html"><img src="Img/hotel2.jfif"></a>
+        <a href="accommodation.html"><img src="Img/hotel2.jfif"></a>
             <div class="hotel-title">    
                 The North Hill Hotel<hr>               
                     <div class="price">
@@ -304,7 +308,7 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
             <div class="hotel-link">
-                <a href="Hotels.html">Take a look</a></div>
+                <a href="accommodation.html">Take a look</a></div>
         
     </div>
  
@@ -332,7 +336,7 @@ if (isset($_POST['submit'])) {
             allowfullscreen="" width="80%" height="450px">
         </iframe>
    
-
+<hr>
    
 <div class="form" style="width:50%;margin-left:25%">
     <h1>If you would like to contact us, please leave us an email below!</h1>
@@ -343,16 +347,14 @@ if (isset($_POST['submit'])) {
             Message:<br> <textarea rows="5" cols="30" name="message"></textarea> <br>
         <input type="submit" name="submit" value="submit"><br>
         </form>
-<footer>
-    &copy;colchester-2021
-</footer>
+
      </div>              
     </div>
-    
-
 </div>
 
-
+<footer>
+    &copy;Colchester-2021-Dan.L
+</footer>
 
 
 

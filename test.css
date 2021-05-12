@@ -233,11 +233,11 @@ td{
 
 footer{
     position: relative;
-        font-weight: 800;
-        font-size: larger;
         text-align:center;
         margin-top:5%;
         margin-bottom: -5%;
+        font-weight: 100;
+    
 }
 
 
@@ -356,4 +356,3 @@ footer{
 
 
 
-  
