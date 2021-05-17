@@ -55,18 +55,21 @@ $query = "INSERT INTO form (id, firstname, lastname, email, location, message) V
             <li><a href="academy_cinema.html">colchester cinema</a></li>
             <li><a href="article.php">reviews</a>
 
-            <div class="dropdown">
-            <li><a href="accommodation.html">Accommodation</a></li>
-                <div class="dropdown-content">
-                <li><a href="">#</a>
-                <li><a href="">#</a>
-                <li><a href="">#<a>
-                <li><a href="">#</a>
-                <li><a href="">#</a>
-                <li><a href="">#</a>
-                <li><a href="">#</a>
-            </div>
+            <ul>
+      <div class="dropdown">
+        <li><a href="accommodation.html">Accommodation</a></li>
+          <div class="dropdown-content">
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          </ul>
         </div>
+    </div>
+  
     <hr>
           
 

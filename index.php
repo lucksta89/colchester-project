@@ -67,19 +67,21 @@ if (isset($_POST['submit'])) {
             <li><a href="academy_cinema.html">colchester cinema</a></li>
             <li><a href="article.php">reviews</a>
 
-            <div class="dropdown">
-            <a href="accommodation.html">Accommodation</a></li>
-                <div class="dropdown-content">
-                <li><a href="">#</a></li>
-                <li><a href="">#</a></li>
-                <li><a href="">#<a></li>
-                <li><a href="">#</a></li>
-                <li><a href="">#</a></li>
-                <li><a href="">#</a></li>
-                <li><a href="">#</a></li>
-            
-            </div>
+            <ul>
+      <div class="dropdown">
+        <li><a href="accommodation.html">Accommodation</a></li>
+          <div class="dropdown-content">
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          <li><a href="">#</a></li>
+          </ul>
         </div>
+    </div>
+  
     <hr>
         
 
@@ -198,7 +200,7 @@ if (isset($_POST['submit'])) {
             </div>
       </div>
       
-      <hr>
+     
 
         <div class="card">
             <img src="Img/highwoods6.jfif" class="card-img-top" alt="...">
