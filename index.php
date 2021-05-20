@@ -41,10 +41,12 @@ if (isset($_POST['submit'])) {
         <link rel="stylesheet" type="text/css" href="test.css">
         <link rel="shortcut icon" href="building.svg" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="test2.css">
+        <script src="main.js"></script>
         <title>Welcome to colchester</title>
       </head>
     <body>
    
+
 
         <ul class="nav nav-tabs bg-dark">
             <li class="nav-item">
