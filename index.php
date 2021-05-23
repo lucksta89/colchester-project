@@ -33,20 +33,23 @@ if (isset($_POST['submit'])) {
 
 <!doctype html>
 <html lang="en">
-    <head>
+    <head>       
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+              <link rel="icon" type="building.svg"href="building.svg">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="test.css">
-        <link rel="shortcut icon" href="building.svg" type="image/x-icon">
+
         <link rel="stylesheet" type="text/css" href="test2.css">
         <script src="main.js"></script>
         <title>Welcome to colchester</title>
       </head>
     <body>
-   
 
+
+
+ 
 
         <ul class="nav nav-tabs bg-dark">
             <li class="nav-item">
@@ -68,9 +71,9 @@ if (isset($_POST['submit'])) {
             <li><a href="newsletter.html">News</a></li>
             <li><a href="academy_cinema.html">colchester cinema</a></li>
             <li><a href="article.php">reviews</a>
-
             <ul>
-      <div class="dropdown">
+              <li id="cor" onclick="corona()" style="color:red">Check corona updates!</li>
+      <div class="dropdown">   
         <li><a href="accommodation.html">Accommodation</a></li>
           <div class="dropdown-content">
           <li><a href="">#</a></li>
@@ -87,22 +90,20 @@ if (isset($_POST['submit'])) {
     <hr>
         
 
-    
     <div class="image">
             <img src="Img/town.jpg"alt="picture"class="picture">
-                <div class="text">welcome to colchester
+                <div class="text"style="font-size:2em;margin-top:110px;">welcome to colchester
                     <img src="Img/award-fill.svg"></div>
     </div>
     
 
         <div id="about"> 
         <div class="card-body">
-            <div class="card-header"style="font-size:2.5em;text-align:left">
-                Colchester ruins!
-            </div>
-            
+            <div class="card-header"style="font-size:2.5em;text-align:left;margin-top:-80px">
+             Colchester ruins!
+              </div>
             <div class="card-body">
-              <blockquote class="blockquote mb-0"style="font-size:0.9em;margin-top:2%;">
+              <blockquote class="blockquote mb-0"style="font-size:0.9em;margin:2%;">
                 <p> this is the ruins of colchester 
                 Welcome to Colchester! An historic Essex town, Britain's first city and former capital of Roman Britain. Its rich history dates back over 2000 years and is ripe for exploring.
                 But it's not all about the past. 21st Century Colchester is a thriving, modern town with first class visitor attractions, including the family favourites Colchester Zoo and Colchester Castle, as well as fantastic places to eat, drink and shop.
@@ -112,8 +113,9 @@ if (isset($_POST['submit'])) {
             </div>
           </div>
 
+          <div class="card-header"style="font-size:0.8em;text-align:left;padding-top:100px;">
           <div class="table">
-            <h5 class="card-title" id="table" style="font-size:2.5em">Tour times!</h5>
+            <h5 class="card-title" id="table" style="text-align:center;font-size:2em">Tour times!</h5>
 
       <table id="table">
           <tr>
