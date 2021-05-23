@@ -40,16 +40,12 @@ if (isset($_POST['submit'])) {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="test.css">
-
         <link rel="stylesheet" type="text/css" href="test2.css">
         <script src="main.js"></script>
         <title>Welcome to colchester</title>
       </head>
     <body>
 
-
-
- 
 
         <ul class="nav nav-tabs bg-dark">
             <li class="nav-item">
@@ -72,8 +68,55 @@ if (isset($_POST['submit'])) {
             <li><a href="academy_cinema.html">colchester cinema</a></li>
             <li><a href="article.php">reviews</a>
             <ul>
-              <li id="cor" onclick="corona()" style="color:red">Check corona updates!</li>
-      <div class="dropdown">   
+
+
+ <!-- Button trigger modal -->
+<a data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor:pointer">
+check corona advice!
+</a>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Colchester has restrictions due to corona</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+   
+      DISRUPTED<br>
+Animal services<br>
+Our Pest Control service is operating; however, bedbug treatments are currently unavailable. Advice can be given on the self-treatment if required.
+<br>
+Bereavement services<br>
+The crematorium and cemetery can hold funerals with up to 60 mourners in the chapel and any reasonable amount at a graveside, providing social distancing measures can be followed.
+<br>
+A maximum of 6 people may attend an ashes burial or wake.<br>
+<br>
+The cemetery and Garden of Remembrance will be closed to visitors, except for those who are attending a funeral, attending the scattering or burial of ashes, or visiting the grave or memorial of a loved one.
+<br>
+The Book of Remembrance, Prayer Room and the crematorium office remain closed to visitors. <br>
+<br>
+Visitors must follow current guidelines.<br>
+Events<br>
+Open air events, such as funfairs and markets, can take place and Colchester Amphora Trading Ltd (CATL) is working with operators to facilitate this at various venues. The Colchester Events team is working to enable events at indoor venues, including Charter Hall and Town Hall, to take place from 21 June in line with the Government’s roadmap.
+Environmental<br>
+You can continue to report environmental and noise concerns. However, the Weekend Noise Service is suspended.
+<br>
+Aqua Springs<br>
+Aqua Springs Spa and a selection of beauty therapy treatments have re-opened, but the saunas, steam room, aromatherapy room and salt inhalation room remain closed. Visitors must book before visiting the spa. 
+<br>
+Weddings<br>
+Weddings can take place at the Town Hall with maximum attendance limited to 15 people. From 17 May, weddings will recommence at Colchester Castle with a maximum attendance of 30 people; the Town Hall will also be working to these numbers, subject to social distancing guidelines.
+<br> </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="dropdown">   
         <li><a href="accommodation.html">Accommodation</a></li>
           <div class="dropdown-content">
           <li><a href="">#</a></li>
@@ -86,9 +129,10 @@ if (isset($_POST['submit'])) {
           </ul>
         </div>
     </div>
-  
+
     <hr>
-        
+
+    
 
     <div class="image">
             <img src="Img/town.jpg"alt="picture"class="picture">
@@ -96,6 +140,8 @@ if (isset($_POST['submit'])) {
                     <img src="Img/award-fill.svg"></div>
     </div>
     
+
+   
 
         <div id="about"> 
         <div class="card-body">
