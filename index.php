@@ -47,6 +47,8 @@ if (isset($_POST['submit'])) {
     <body>
 
 
+
+
         <ul class="nav nav-tabs bg-dark">
             <li class="nav-item">
                 <a class="nav-link active" href="index.php">Home</a>
@@ -57,9 +59,12 @@ if (isset($_POST['submit'])) {
                 <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
                   aria-describedby="search-addon" />
                 <button type="button" class="btn btn-outline-light">search</button>
-              </div></li>
-        </ul>
-        <hr>
+              </div>       
+
+            </li>
+        </ul> 
+        <?php include "hamburger.html"; ?>
+        <hr id="hr">
         <div class="sub-menu">
         
             <li><a href="things-to-do.html">things to-do</a></li>
@@ -129,8 +134,7 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
           </ul>
         </div>
     </div>
-
-    <hr>
+    <hr id="hrr">
 
     
 
