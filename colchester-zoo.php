@@ -105,57 +105,114 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
     <hr id="hrr">
 
     
-    
-<header>
-    <h1>
-        welcome to the pet page!
-    </h1>
-</header>
+                
+    <!-- header -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Colchester zoo</h1>
+          <p class="lead">come and see all the great shows we have on!</p>
+        </div>
+      </div>
 
-<main>
-<div class="pets">
-    <img src="Img/dog.jpg" alt="dog" width="50%">
-</div>       
 
-<div class="article_1">
-        <div class="text">Take a look at our pet store!<br>
-        toys and food for all types!</div>
-    <img src="Img/dog2.jpg" alt="dog2" width="50%" class="art_1">
+
+    <!-- slideshow -->
+
+<div class="zoo-slideshow">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" 
+    style="width:50%;float:right; margin-right:2%">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Img/zoo1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Img/zooo2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Img/zoo3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
     </div>
-
-<div class="article_2">
-<div class="text_2">
-    Take a look at our pet store!<br>
-        toys and food for all types!</div>
-    <img src="Img/dog2.jpg" alt="dog2" width="50%"class="art_2">
+    </div>
 </div>
 
 
-<div class="article_3">
-<div class="text_3">
-     Take a look at our pet store!<br>
-        toys and food for all types!</div>
-    <img src="Img/dog2.jpg" alt="dog2" width="50%" class="art_3">
-</div>
-</main>
+
+    
+    <div class="zoo-text-box">
+        <div class="card" style="width:45%; margin-left: 2%;">
+            <div class="card-header">
+              <h5>Feeding the animal's</h5> 
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-5 mg" >
+                <p>We offer a chance to feed the animal's during your time here (including tigers, birds, seals wolfs
+                    and many more!)</p><br>
+                <footer class="blockquote-footer">Zoo staff <cite title="Source Title">Colchester zoo</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+
+
+        
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Bird feeding times</h5>
+                  <p class="card-text">bird seed will be made available in the show.
+
+                  </p>
+                  <span class="badge badge-secondary bg-danger">10:00</span></h1>
+                  <span class="badge badge-secondary bg-danger">15:00</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Seal feeding times</h5>
+                  <p class="card-text">food will be made available in the show..</p>
+                  <span class="badge badge-secondary bg-danger">12:00</span></h1>
+                  <span class="badge badge-secondary bg-danger">17:00</span></h1>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
 
-<footer>
-&copy;Dluck 2020
-</footer>
+
+<!-- map and address-->
+<div class="address">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Colchester map!</h5>
+          <p class="card-text">take a look to see you route!.</p>
+      
+          <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19710.304595081383!2d0.817105466093796!3d51.864825745055576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9033920595745%3A0x38e6d9bc5d6dfdba!2sColchester+Zoo!5e0!3m2!1sen!2suk!4v1549898716311" 
+          allowfullscreen="" width="100%" height="450"></iframe>
+      </div>
+</div>  </div>
+
+      <footer>
+        &copy;Colchester-2021 
+    </footer>
 
 
 
+          <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
 
-
-
-
-
-
-
-
-
-
-    </body>
-</HTML>

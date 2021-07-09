@@ -1,6 +1,4 @@
 
-alert("Welcome to Daniel's test site");
-
 
 var myModal = document.getElementById('myModal')
 var myInput = document.getElementById('myInput')

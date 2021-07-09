@@ -31,6 +31,7 @@ if (isset($_POST['submit'])) {
 ?>
 
 
+
 <!doctype html>
 <html lang="en">
     <head>       
@@ -47,8 +48,10 @@ if (isset($_POST['submit'])) {
     <body>
 
 
+<script>
+  alert("Welcome to Daniel's test site");
 
-
+  </script>
         <ul class="nav nav-tabs bg-dark">
             <li class="nav-item">
                 <a class="nav-link active" href="index.php">Home</a>
@@ -63,14 +66,14 @@ if (isset($_POST['submit'])) {
 
             </li>
         </ul> 
-        <?php include "hamburger.html"; ?>
+        <?php include "hamburger.php"; ?>
         <hr id="hr">
         <div class="sub-menu">
         
-            <li><a href="things-to-do.html">things to-do</a></li>
-            <li><a href="colchester-zoo.html">colchester zoo</a></li>
-            <li><a href="newsletter.html">News</a></li>
-            <li><a href="academy_cinema.html">colchester cinema</a></li>
+            <li><a href="things-to-do.php">things to-do</a></li>
+            <li><a href="colchester-zoo.php">colchester zoo</a></li>
+            <li><a href="newsletter.php">News</a></li>
+            <li><a href="academy_cinema.php">colchester cinema</a></li>
             <li><a href="article.php">reviews</a>
             <ul>
 
@@ -122,7 +125,7 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
 </div>
 
    <div class="dropdown">   
-        <li><a href="accommodation.html">Accommodation</a></li>
+        <li><a href="accommodation.php">Accommodation</a></li>
           <div class="dropdown-content">
           <li><a href="">#</a></li>
           <li><a href="">#</a></li>

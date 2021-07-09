@@ -19,10 +19,10 @@
     <div class="topnav">
       <div id="myLinks">
         
-            <a href="things-to-do.html">things to-do</a><br>
-            <a href="colchester-zoo.html">colchester zoo</a><br>
-            <a href="newsletter.html">News</a><br>
-            <a href="academy_cinema.html">colchester cinema</a><br>
+            <a href="things-to-do.php">things to-do</a><br>
+            <a href="colchester-zoo.php">colchester zoo</a><br>
+            <a href="newsletter.php">News</a><br>
+            <a href="academy_cinema.php">colchester cinema</a><br>
             <a href="article.php">reviews</a></br>
             
 
@@ -75,7 +75,7 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
 <br>
 
    <div class="dropdown">   
-        <li><a href="accommodation.html">Accommodation</a></li>
+        <li><a href="accommodation.php">Accommodation</a></li>
           <div class="dropdown-content">
           <li><a href="">#</a></li>
           <li><a href="">#</a></li>
