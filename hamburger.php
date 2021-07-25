@@ -98,9 +98,13 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
     
     <style>@media only screen and (max-width: 600px){
 
+
+        .dropdown{
+          display:none;
+        }
         .mobile-container{
-            text-align: center;
         display:unset;
+        text-align: center;
         position: relative;
         }
         #myLinks a{
@@ -118,6 +122,7 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
             height: 500px;
             color: black;
             border-radius: 10px;
+       
           }
           
           .topnav {
@@ -128,6 +133,7 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
           
           .topnav #myLinks {
             display: none;
+            margin-left: -15%;
           }
           
           .topnav{
@@ -149,7 +155,7 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
           
           .topnav a:hover {
             background-color: #ddd;
-            color: black;
+            color: red;
           }
           
           .active {
