@@ -1,3 +1,5 @@
+
+
 body{
     background-color: whitesmoke;
 }
@@ -39,7 +41,7 @@ span{
     color:lightcoral;
     font-weight: 900;
     font-size:1.5em;
-    margin-left:40px;  
+    margin-left:0px;  
 }
 
 span1{

@@ -15,20 +15,12 @@
 <!-- Simulate a smartphone / tablet -->
 <div class="mobile-container">
 
-    <!-- Top Navigation Menu -->
-    <div class="topnav">
-      <div id="myLinks">
-        
-            <a href="things-to-do.php">things to-do</a><br>
-            <a href="colchester-zoo.php">colchester zoo</a><br>
-            <a href="newsletter.php">News</a><br>
-            <a href="academy_cinema.php">colchester cinema</a><br>
-            <a href="article.php">reviews</a></br>
-            
-
+ 
+  
  <!-- Button trigger modal -->
-<a data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor:pointer">
-check corona advice!
+<a data-bs-toggle="modal" data-bs-target="#staticBackdrop" 
+style="cursor:pointer;font-weight:900;background-color:whitesmoke;float:right;margin-right:5%;margin-top:1%;font-size:8px;">
+Check Corona Advice
 </a>
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -65,6 +57,9 @@ Aqua Springs Spa and a selection of beauty therapy treatments have re-opened, bu
 Weddings<br>
 Weddings can take place at the Town Hall with maximum attendance limited to 15 people. From 17 May, weddings will recommence at Colchester Castle with a maximum attendance of 30 people; the Town Hall will also be working to these numbers, subject to social distancing guidelines.
 <br> </div>
+
+
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
@@ -72,22 +67,40 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
   </div>
 </div>
 
-<br>
+   <!-- Top Navigation Menu -->
+   <div class="topnav dropdown-content">
+      <div id="myLinks">
+      <ul>
+         <li>   <a href="things-to-do.php">things to-do</a><br></li><hr>
+         <li> <a href="colchester-zoo.php">colchester zoo</a><br></li><hr>
+         <li> <a href="newsletter.php">News</a><br></li><hr>
+                  <li> <a href="academy_cinema.php">colchester cinema</a><br></li><hr>
+         <li> <a href="article.php">reviews</a></br></li><hr>
+            
+
 
    <div class="dropdown">   
         <li><a href="accommodation.php">Accommodation</a></li>
           <div class="dropdown-content">
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          </ul>
+          <ul>
+            <li><a href="accommodation.php">Greyfriars</a></li><hr>
+            <li><a href="accommodation.php">Best Western Marks Tey Hotel</a></li><hr>
+            <li><a href="accommodation.php">Dragonfly Hotel Colchester</a></li><hr>
+            <li><a href="accommodation.php">Five Lakes Resort</a></li><hr>
+            <li><a href="accommodation.php">Best Western The Rose </a></li><hr>
+            <li><a href="accommodation.php">Brook Red Lion Hotel</a></li><hr>
+            <li><a href="accommodation.php">Maison Talbooth, Colchester</a></li><hr>
+            <li><a href="accommodation.php">Milsoms, Colchester</a></li><hr>
+            <li><a href="accommodation.php">Hotel Wivenhoe House, Colchester</a></li><hr>
+            <li><a href="accommodation.php">Hotel white heart, Colchester</a></li><hr>
+            <li><a href="accommodation.php">Old Thatch Bambers Green.</a></li><hr>
+            <li><a href="accommodation.php">Chudleigh Hotel.</a></li><hr>
+            <li><a href="accommodation.php">Downham Hall.</a></li><hr>
+            <li><a href="accommodation.php">Pages Hotel & Guesthouse.</a></li><hr>
+          </ul>  
         </div>
     </div>
-
+        </ul>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -99,20 +112,29 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
     <style>@media only screen and (max-width: 600px){
 
 
-        .dropdown{
-          display:none;
+        .dropdown-content{
+
+          position: relative;
+          z-index: 99;
+          color:black;
+        text-align: left;
+  
+   
         }
         .mobile-container{
         display:unset;
         text-align: center;
         position: relative;
+        text-transform: uppercase;
+
         }
         #myLinks a{
             color:black;
+            margin: 2%;
+            margin-left: 5%;
         }
         body {
             font-family: Arial, Helvetica, sans-serif;
-      
           }
           
           .mobile-container {
@@ -122,13 +144,18 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
             height: 500px;
             color: black;
             border-radius: 10px;
-       
+            margin: 5%;
+
+    
           }
           
+    
           .topnav {
             overflow: hidden;
             background-color: whitesmoke;
+        
             position: relative;
+          
           }
           
           .topnav #myLinks {
@@ -137,25 +164,28 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
           }
           
           .topnav{
-            color: white;
+            background-color: whitesmoke;
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
             display: block;
+           box-shadow: none;
           }
-          
+     
           .topnav a.icon {
             background-color: whitesmoke;
             display: block;
-            width:50px;
+            width:100px;
             position: absolute;
             right: 0;
-            top: 0;
+            top: -25%;
+            margin:0%;
+          
           }
           
           .topnav a:hover {
             background-color: #ddd;
-            color: red;
+            color: #333;
           }
           
           .active {
@@ -172,6 +202,11 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
         
         .modal-body{
             color:black;
+        }
+        hr{
+          color:#555;
+          margin: 0 0;
+          padding:0 0;
         }
         }
         </style>
