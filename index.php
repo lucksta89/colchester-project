@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
     <head>       
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-        <link rel="icon" type="building.svg"href="building.svg">
+        <link rel="icon" type="icon" href="building.svg">
       
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         
@@ -48,18 +48,18 @@ if (isset($_POST['submit'])) {
       </head>
     <body>
 
+
+
     <ul class="nav nav-tabs bg-dark">
             <li class="nav-item">
-                <a class="nav-link active" href="index.php">Home</a>
-            </li>
-            <a href="index.php"><li id="title2"><span>welcome</span><span1>2</span1><span2>colchester</span2></a>
-            </li></a>
+                <a class="nav-link active" href="index.php">Home  </a>
+            <li href="index.php">
+                <li id="title2" style="margin-left:10px;"><span>welcome</span><span1>2</span1><span2>colchester</span2></li>
             <li div class="input-group">
                 <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
                   aria-describedby="search-addon" />
                 <button type="button" class="btn btn-outline-light">search</button>
               </div>       
-
             </li>
         </ul> 
         <?php include "hamburger.php"?>
@@ -94,7 +94,7 @@ if (isset($_POST['submit'])) {
 </nav>
 
 
-
+<hr>
 
     <div class="image">
             <img src="Img/town.jpg"alt="picture"class="picture">

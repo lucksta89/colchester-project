@@ -80,7 +80,7 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
 
 
    <div class="dropdown">   
-        <li><a href="accommodation.php">Accommodation</a></li>
+        <li><button><a href="accommodation.php">Accommodation</a></button></li>
           <div class="dropdown-content">
           <ul>
             <li><a href="accommodation.php">Greyfriars</a></li><hr>
@@ -127,6 +127,8 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
         position: relative;
         text-transform: uppercase;
 
+        
+
         }
         #myLinks a{
             color:black;
@@ -145,8 +147,6 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
             color: black;
             border-radius: 10px;
             margin: 5%;
-
-    
           }
           
     
@@ -177,9 +177,12 @@ Weddings can take place at the Town Hall with maximum attendance limited to 15 p
             display: block;
             width:100px;
             position: absolute;
-            right: 0;
+            right: 4%;
             top: -25%;
-            margin:0%;
+            margin:1.5%;
+            padding:0%;
+            padding-left:2%;
+            border:black 1px solid;
           
           }
           

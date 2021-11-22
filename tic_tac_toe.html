@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+    <script src="main.js" defer></script>
+</head>
+
+
+<div class="userrr">
+
+    <div class="title">
+
+
+        <div class="navbar">
+            <a href="index1.html">Home</a>
+                <a href="addingup.html">Adding up</a>
+                <a href="subtracting.html">Subtracting</a>
+                <a href="writing.html">Writing</a>
+                <a href="tic_tac_toe.html">tick tack toe</a>
+        </div>
+
+<br>
+<br>
+<div class="title">Choose your player!<br>
+    <ol>
+    <li style=color:green>P1</li>,
+    <li style=color:blue>P2</li>,
+    <li style=color:red>P3</li>,
+    <li style=color:yellow>P4</li>,
+    <li style=color:pink>P5</li>,
+    </ol>
+</div>
+    
+    <br>
+
+    <br>
+    <input id="people" value="" placeholder="Enter player here!"><br>
+    <button class="btn" onclick="userrr()">click here!</button>
+    <p id="players"></p>
+
+
+<body id="body">
+
+
+
+<!--this container is needed to overlay our canvas over our table-->
+    <div class="center-container">
+        <!--note: canvas width and height must be set withing the element-->
+        <canvas id="win-lines" width="608px" height="608px"></canvas>
+        <table>
+            <tr>
+                <td id="0" onclick='placeXOrO("0")'></td>
+                <td id="1" onclick='placeXOrO("1")'></td>
+                <td id="2" onclick='placeXOrO("2")'></td>
+            </tr>
+            <tr>
+                <td id="3" onclick='placeXOrO("3")'></td>
+                <td id="4" onclick='placeXOrO("4")'></td>
+                <td id="5" onclick='placeXOrO("5")'></td>
+            </tr>
+            <tr>
+                <td id="6" onclick='placeXOrO("6")'></td>
+                <td id="7" onclick='placeXOrO("7")'></td>
+                <td id="8" onclick='placeXOrO("8")'></td>
+            </tr>
+        </table>
+    </div>
+
+
+        
+
+     
+      
+      
+     
+<script src="js/tic_tac_toe.js"></script>
+</body>
+</html>
