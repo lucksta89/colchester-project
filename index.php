@@ -36,65 +36,47 @@ if (isset($_POST['submit'])) {
 <html lang="en">
     <head>       
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-        <link rel="icon" type="icon" href="building.svg">
-      
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        
-        <link rel="stylesheet" type="text/css" href="test.css">
-        <link rel="stylesheet" type="text/css" href="test2.css">
-        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="main.js" defer></script>
         <title>Welcome to colchester</title>
       </head>
     <body>
-
-
-
-    <ul class="nav nav-tabs bg-dark">
+    <ul class="nav nav-tabs bg-dark">        
             <li class="nav-item">
-                <a class="nav-link active" href="index.php">Home  </a>
-            <li href="index.php">
-                <li id="title2" style="margin-left:10px;"><span>welcome</span><span1>2</span1><span2>colchester</span2></li>
-            <li div class="input-group">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                  aria-describedby="search-addon" />
-                <button type="button" class="btn btn-outline-light">search</button>
-              </div>       
-            </li>
-        </ul> 
-        <?php include "hamburger.php"?>
-        <div class="sub-menu">
-      
-            <li><a href="things-to-do.php">things to-do</a></li>
-            <li><a href="colchester-zoo.php">colchester zoo</a></li>
-            <li><a href="newsletter.php">News</a></li>
-            <li><a href="academy_cinema.php">colchester cinema</a></li>
-            <li><a href="article.php">reviews</a></li>
-
-
-
-
-   <div class="dropdown">   
-        <li><a href="accommodation.php">Accommodation</a></li>
-          <div class="dropdown-content">
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
+            <li><a class="nav-link" id="title2" href="index.php">Home</a></li>
+            <li><a class="nav-link text-light" href="things-to-do.php">things to-do</a></li>
+            <li><a class="nav-link text-light" href="colchester-zoo.php">colchester zoo</a></li>
+            <li><a class="nav-link text-light" href="newsletter.php">News</a></li>
+            <li><a class="nav-link text-light" href="academy_cinema.php">colchester cinema</a></li>
+            <li><a class="nav-link text-light" href="article.php">reviews</a></li>
+</li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-light dropdown-toggle" data-bs-toggle="dropdown" href="accommodation.php" button" aria-expanded="false">Accommodation</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="accommodation.php">Greyfriars</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Best Western Marks Tey Hotel</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Dragonfly Hotel Colchester</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Five Lakes Resort</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Best Western The Rose </a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Brook Red Lion Hotel</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Maison Talbooth, Colchester</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Milsoms, Colchester</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Hotel Wivenhoe House, Colchester</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Hotel white heart, Colchester</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Old Thatch Bambers Green.</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Chudleigh Hotel.</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Downham Hall.</a></li><hr>
+            <li><a class="dropdown-item" href="accommodation.php">Pages Hotel & Guesthouse.</a></li><hr>
           </ul>
-        </div>
-    </div>
-    <hr id="hrr">
-    
-</div>
-</div>
+        </li>
+      </ul>
+
+
+
 </nav>
 
-
-<hr>
 
     <div class="image">
             <img src="Img/town.jpg"alt="picture"class="picture">
@@ -107,11 +89,11 @@ if (isset($_POST['submit'])) {
 
         <div id="about"> 
         <div class="card-body">
-            <div class="card-header"style="font-size:2.5em;text-align:left;margin-top:-80px">
+            <div class="card-header">
              Colchester ruins!
               </div>
             <div class="card-body">
-              <blockquote class="blockquote mb-0"style="font-size:0.9em;margin:2%;">
+              <blockquote class="blockquote mb-0">
                 <p> this is the ruins of colchester 
                 Welcome to Colchester! An historic Essex town, Britain's first city and former capital of Roman Britain. Its rich history dates back over 2000 years and is ripe for exploring.
                 But it's not all about the past. 21st Century Colchester is a thriving, modern town with first class visitor attractions, including the family favourites Colchester Zoo and Colchester Castle, as well as fantastic places to eat, drink and shop.
@@ -121,9 +103,9 @@ if (isset($_POST['submit'])) {
             </div>
           </div>
 
-          <div class="card-header"style="font-size:0.8em;text-align:left;padding-top:100px;">
+          <div class="card-header">
           <div class="table">
-            <h5 class="card-title" id="table" style="text-align:center;font-size:2em">Tour times!</h5>
+            <h5 class="card-title" id="table">Tour times!</h5>
 
       <table id="table">
           <tr>
@@ -178,9 +160,9 @@ if (isset($_POST['submit'])) {
          
       <div class="group">
             <div class="card-header">
-             <img src="Img/ruins.jpg" width="100%" class="ruins">
+             <img src="Img/ruins.jpg" class="ruins">
 
-             <div class="card-group"style="position: relative;bottom:500px;opacity: 0.7;">
+             <div class="card-group">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Roman Church</h5>
@@ -217,7 +199,7 @@ if (isset($_POST['submit'])) {
         <div class="card">
             <img src="Img/highwoods6.jfif" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text"style="font-size:0.9em">
+              <p class="card-text">
                 Colchester and its surrounding area offers a wide variety of things to do, places to see,  and fantastic attractions to explore.
                 In the town centre you'll discover a number of museums and galleries sitting amongst the numerous historic buildings and heritage sites - combine this with the great entertainment and the fantastic shopping experiences on offer in the town and you may want to consider extending your trip!
                 Further afield there's more to explore. Colchester Zoo is one of the country's top attractions and you can also discover the area's natural beauty via a great selection of scenic walks and cycling routes throughout the local area. 
@@ -235,7 +217,7 @@ if (isset($_POST['submit'])) {
                     programme.</p> </div>
           </div>
     
-          <div class="card border m-lg-5" style="max-width: 100%;font-size:1.5em;">
+          <div class="card border m-lg-5">
             <div class="card-header bg-transparent">Take a virtual tour of colchester</div>
             <div class="card-body text-success">
               <p class="card-text">
@@ -317,7 +299,7 @@ if (isset($_POST['submit'])) {
                         Rooms have tea & coffee making facilities,
                         free WI-FI, DVD & freeview TV. Our restaurant,
                         The Green Room, offers a traditional British menu with a 
-                        twist utilising the best of local produde.
+                        twist utilizing the best of local produce.
                     </p>
                 </div>
             </div>
@@ -351,7 +333,7 @@ if (isset($_POST['submit'])) {
         </iframe>
 <hr>
    
-<div class="form" style="width:50%;margin-left:25%">
+<div class="form">
     <h1>If you would like to contact us, please leave us an email below!</h1>
          <form action="" method="post">
             first name:<input name="name" type="text" placeholder="enter here"> <br>
@@ -369,12 +351,6 @@ if (isset($_POST['submit'])) {
     &copy;Colchester-2021-Dan.L
 </footer>
 
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-  
     </body>
 </html>
 
