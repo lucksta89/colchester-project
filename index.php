@@ -36,128 +36,86 @@ if (isset($_POST['submit'])) {
 <html lang="en">
     <head>       
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="main.js" defer></script>
-        <title>Welcome to colchester</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Welcome to Colchester</title>
       </head>
     <body>
-    <ul class="nav nav-tabs bg-dark">        
-            <li class="nav-item">
-            <li><a class="nav-link" id="title2" href="index.php">Home</a></li>
-            <li><a class="nav-link text-light" href="things-to-do.php">things to-do</a></li>
-            <li><a class="nav-link text-light" href="colchester-zoo.php">colchester zoo</a></li>
-            <li><a class="nav-link text-light" href="newsletter.php">News</a></li>
-            <li><a class="nav-link text-light" href="academy_cinema.php">colchester cinema</a></li>
-            <li><a class="nav-link text-light" href="article.php">reviews</a></li>
-</li>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="index.php">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"> <a class="nav-link text-light" href="things-to-do.php">things to-do</a></li>
+        <li class="nav-item"> <a class="nav-link text-light" href="colchester-zoo.php">colchester zoo</a></li>
+        <li class="nav-item"> <a class="nav-link text-light" href="newsletter.php">News</a></li>
+        <li class="nav-item"> <a class="nav-link text-light" href="academy_cinema.php">colchester cinema</a></li>
+        <li class="nav-item"> <a class="nav-link text-light"  href="article.php">reviews</a></li>
+
         <li class="nav-item dropdown">
-          <a class="nav-link text-light dropdown-toggle" data-bs-toggle="dropdown" href="accommodation.php" button" aria-expanded="false">Accommodation</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="accommodation.php">Greyfriars</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Best Western Marks Tey Hotel</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Dragonfly Hotel Colchester</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Five Lakes Resort</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Best Western The Rose </a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Brook Red Lion Hotel</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Maison Talbooth, Colchester</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Milsoms, Colchester</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Hotel Wivenhoe House, Colchester</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Hotel white heart, Colchester</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Old Thatch Bambers Green.</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Chudleigh Hotel.</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Downham Hall.</a></li><hr>
-            <li><a class="dropdown-item" href="accommodation.php">Pages Hotel & Guesthouse.</a></li><hr>
-          </ul>
+          <a class="nav-link text-light dropdown-toggle" href="accommodation.php" id="navbarDropdown" 
+          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            accommodation
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <li><a class="dropdown-item" href="accommodation.php">Greyfriars</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Best Western Marks Tey Hotel</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Dragonfly Hotel Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Five Lakes Resort</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Best Western The Rose </a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Brook Red Lion Hotel</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Maison Talbooth, Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Milsoms, Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Hotel Wivenhoe House, Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Hotel white heart, Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Old Thatch Bambers Green.</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Chudleigh Hotel.</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Downham Hall.</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Pages Hotel & Guesthouse.</a></li><hr>
+                </ul>
         </li>
       </ul>
-
-
-
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
 </nav>
 
 
     <div class="image">
-            <img src="Img/town.jpg"alt="picture"class="picture">
-                <div class="text"style="font-size:2em;margin-top:110px;">welcome to colchester
-                    <img src="Img/award-fill.svg"></div>
+            <div class="text"">Welcome To Colchester<br/>
+            <hr id="hr-title">
+            <img src="Img/award-fill.svg">
+            Award winning town
+            <img src="Img/award-fill.svg">
+            <img src="Img/town.jpg"alt="picture" class="image-pic">
     </div>
     
 
-   
 
-        <div id="about"> 
-        <div class="card-body">
-            <div class="card-header">
-             Colchester ruins!
-              </div>
-            <div class="card-body">
-              <blockquote class="blockquote mb-0">
-                <p> this is the ruins of colchester 
-                Welcome to Colchester! An historic Essex town, Britain's first city and former capital of Roman Britain. Its rich history dates back over 2000 years and is ripe for exploring.
-                But it's not all about the past. 21st Century Colchester is a thriving, modern town with first class visitor attractions, including the family favourites Colchester Zoo and Colchester Castle, as well as fantastic places to eat, drink and shop.
-                Poised at the gateway to East Anglia with picturesque villages on its doorstep, and only minutes away from the coast, the Colchester area is the perfect destination for a well-deserved short break, day trip or family holiday. 
-                </p>
-              </blockquote>
-            </div>
-          </div>
 
-          <div class="card-header">
-          <div class="table">
-            <h5 class="card-title" id="table">Tour times!</h5>
-
-      <table id="table">
-          <tr>
-              <th>monday</th>
-              <th>tuesday</th>
-              <th>wednesday</th>
-              <th>thursday</th>
-              <th>friday</th>
-              <th>saturday</th>
-              <th>sunday</th>
-          </tr>
-          <tr>
-              <th>08:00</th>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-          </tr>               
-              <tr>
-              <th>10:00</th>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-          </tr>
-          <tr>
-              <th>12:00</th>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-          </tr>
-          <tr>
-              <th>15:00</th>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-              <td>tour</td>
-          </tr>
-      </table>  
-  </div> 
- </div>
-</div>
-         
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h3 class="display-12">Colchester Ruins!</h3>
+    <p> this is the ruins of colchester 
+    Welcome to Colchester! An historic Essex town, Britain's first city and former capital of Roman Britain. Its rich history dates back over 2000 years and is ripe for exploring.
+    But it's not all about the past. 21st Century Colchester is a thriving, modern town with first class visitor attractions, including the family favourites Colchester Zoo and Colchester Castle, as well as fantastic places to eat, drink and shop.
+    Poised at the gateway to East Anglia with picturesque villages on its doorstep, and only minutes away from the coast, the Colchester area is the perfect destination for a well-deserved short break, day trip or family holiday. 
+    </p>
+  </div>
+</div>  
+     
+      
       <div class="group">
             <div class="card-header">
              <img src="Img/ruins.jpg" class="ruins">
@@ -197,7 +155,7 @@ if (isset($_POST['submit'])) {
      
 
         <div class="card">
-            <img src="Img/highwoods6.jfif" class="card-img-top" alt="...">
+            <img src="Img/highwoods6.jfif" class="card-img-top ruins" alt="...">
             <div class="card-body">
               <p class="card-text">
                 Colchester and its surrounding area offers a wide variety of things to do, places to see,  and fantastic attractions to explore.
@@ -218,27 +176,21 @@ if (isset($_POST['submit'])) {
           </div>
     
           <div class="card border m-lg-5">
-            <div class="card-header bg-transparent">Take a virtual tour of colchester</div>
+            <div class="card-header bg-transparent"><h3>Take a virtual tour of colchester</h3></div>
             <div class="card-body text-success">
-              <p class="card-text">
+            <p class="card-text">
                    <iframe width="100%" height="444" src="https://www.youtube.com/embed/zCvYlwcQQtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </p>
+            </p>
             </div>
           </div>
          
 
-        <div id="accommodation">
-            <div class="banner">
-                Places to stay... 
-                <img src="Img/building.svg">
-            </div>
-        </div>
 
-
-        
-
-        <div class="hotels">
+        <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 class="display-12">Places to stay...</h3>
+            <p class="lead">
             <div class="title">find a place to stay here at colchester!<hr></div>
                 <div class="sub-title">
                     Find the best hotels in Colchester,
@@ -251,98 +203,95 @@ if (isset($_POST['submit'])) {
                     Colchester town centre hotels offer you the benefits of easy access to all the main shops, 
                     restaurants and attractions for a hassle-free stay.
                 </div>
-        </div>
+                </div>
+                </p>
+            </div>
+            </div>  
 
 
-    <div class="hotel-1">
-        <a href="accommodation.html"><img src="Img/hotel1.jfif"></a>
-                <div class="hotel-title">    
-                    Wivenhoe House Hotel<hr>               
-                    <div class="price">
-                        Price
-                        £47.50<br>
-                        per person per night<br>
-                        to £165.00<br>
-                        per room per night, for bed & breakfast
-                    </div>
-                    <div class="hotel-info">
-                        <p>
-                            Colchester's four-star luxury hotel once painted
+            <div class="card-group">
+  <div class="card">
+    <img src="Img/hotel1.jfif" class="card-img-top" alt="card1">
+    <div class="card-body">
+      <h5 class="card-title">Wivenhoe House Hotel</h5><hr>
+      <p class="card-text">Price £47.50 PP 1 night.</p><hr>
+      <p class="card-text"> Colchester's four-star luxury hotel once painted
                             by Constable. Surrounded by glorious parkland, 
                             Wivenhoe House combines the romance and charm of 
                             an eighteenth century Grade II listed house with 
-                            all the comforts of contemporary living.
-                        </p>
-                    </div>
-                  </div>     
-                  <div class="hotel-link">
-                    <a href="accommodation.html">Take a look</a></div>
-            
+                            all the comforts of contemporary living.</p><hr>
+    <p class="card-text">Bed & breakfast</p><hr>
+    <a href="accommodation.php" class="card-link">Take a look </a>
     </div>
+  </div>
 
 
-
-    <div class="hotel-1">
-        <a href="accommodation.html"><img src="Img/hotel2.jfif"></a>
-            <div class="hotel-title">    
-                The North Hill Hotel<hr>               
-                    <div class="price">
-                        Price
-                        £64.50<br>
-                        per person per night<br>
-                        to £119.50<br>
-                        per room per night, for bed & breakfast
-                    </div>
-                <div class="hotel-info">
-                    <p>
-                        A modern town centre hotel in a Georgian setting.
+  <div class="card">
+    <img src="Img/hotel2.jfif" class="card-img-top" alt="card2">
+    <div class="card-body">
+      <h5 class="card-title">Best Western Marks Tey Hotel</h5><hr>
+      <p class="card-text">Price £97.50 PP 1 night.</p><hr>
+      <p class="card-text">Colchester's four-star luxury hotel once painted
+                            by Constable. Surrounded by glorious parkland, 
+                            Wivenhoe House combines the romance and charm of 
+                            an eighteenth century Grade II listed house with 
+                            all the comforts of contemporary living.</p><hr>
+                            <p class="card-text">Bed & breakfast</p><hr>
+    <a href="accommodation.php" class="card-link">Take a look </a>
+    </div>
+  </div>
+  
+  
+  <div class="card">
+    <img src="Img/hotel1.jfif" class="card-img-top" alt="card3">
+    <div class="card-body">
+      <h5 class="card-title">The North Hill Hotel</h5><hr>
+      <p class="card-text">Price £64.50 PP 1 night.</p><hr>
+      <p class="card-text">    A modern town centre hotel in a Georgian setting.
                         Rooms have tea & coffee making facilities,
                         free WI-FI, DVD & freeview TV. Our restaurant,
                         The Green Room, offers a traditional British menu with a 
-                        twist utilizing the best of local produce.
-                    </p>
-                </div>
-            </div>
-            <div class="hotel-link">
-                <a href="accommodation.html">Take a look</a></div>
-        
+                        twist utilizing the best of local produce.</p><hr>
+                        <p class="card-text">Bed & breakfast</p><hr>
+    <a href="accommodation.php" class="card-link">Take a look </a>
     </div>
- 
+  </div>
+</div>
+</div>
 
 
-    
-    <div class="contact">Contact us
-        <img src="Img/telephone-fill.svg">
-    </div>
-    
-  
+
+
 
     <div class="address">
+    <div class="contact">Contact us
+        <img src="Img/telephone-fill.svg">
+ 
+
         <address>
-            <h1>
+            <h6>
                 Visit us at: www.colchester.co.uk<br>
                 colchester@mail.co.uk<br>
                 colchester, 1 high street<br>
                 U.K.
-            </h1>
+            </h6>
         </address>
-
+   </div>
   
         <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19710.304595081383!2d0.817105466093796!3d51.864825745055576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9033920595745%3A0x38e6d9bc5d6dfdba!2sColchester+Zoo!5e0!3m2!1sen!2suk!4v1549898716311" 
-            allowfullscreen="" width="80%" height="450px">
+            allowfullscreen="" width="50%" height="450px" id="map">
         </iframe>
 <hr>
    
 <div class="form">
-    <h1>If you would like to contact us, please leave us an email below!</h1>
+    <h6>If you would like to contact us, please leave us an email below!</h6>
          <form action="" method="post">
-            first name:<input name="name" type="text" placeholder="enter here"> <br>
-            last name:<input name="last name" type="text" placeholder="enter here" > <br>
-            your email<input name="email" type="text" placeholder="enter here"><br>
+            First Name:<input name="name" type="text" placeholder="enter here"> <br>
+            Last Name:<input name="last name" type="text" placeholder="enter here" > <br>
+            Your Email<input name="email" type="text" placeholder="enter here"><br>
             Message:<br> <textarea rows="5" cols="30" name="message"></textarea> <br>
-        <input type="submit" name="submit" value="submit"><br>
+        <input type="submit" name="submit" value="Submit"><br>
         </form>
-
      </div>              
     </div>
 </div>

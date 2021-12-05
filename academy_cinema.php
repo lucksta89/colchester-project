@@ -3,62 +3,59 @@
 <html lang="en">
     <head>       
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-              <link rel="icon" type="building.svg"href="building.svg">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="test.css">
-        <link rel="stylesheet" type="text/css" href="test2.css">
-        <script src="main.js"></script>
-        <title>Welcome to colchester</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="main.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Welcome to Colchester</title>
       </head>
     <body>
 
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="index.php">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"> <a class="nav-link text-light" href="things-to-do.php">things to-do</a></li>
+        <li class="nav-item"> <a class="nav-link text-light" href="colchester-zoo.php">colchester zoo</a></li>
+        <li class="nav-item"> <a class="nav-link text-light" href="newsletter.php">News</a></li>
+        <li class="nav-item"> <a class="nav-link text-light" href="academy_cinema.php">colchester cinema</a></li>
+        <li class="nav-item"> <a class="nav-link text-light"  href="article.php">reviews</a></li>
 
-    <ul class="nav nav-tabs bg-dark">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.php">Home</a>
-            </li>
-            <a href="index.php"><li id="title2"><span>welcome</span><span1>2</span1><span2>colchester</span2></a>
-            </li></a>
-            <li div class="input-group">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                  aria-describedby="search-addon" />
-                <button type="button" class="btn btn-outline-light">search</button>
-              </div>       
-
-            </li>
-        </ul> 
-        <?php include "hamburger.php"?>
-        <div class="sub-menu">
-      
-            <li><a href="things-to-do.php">things to-do</a></li>
-            <li><a href="colchester-zoo.php">colchester zoo</a></li>
-            <li><a href="newsletter.php">News</a></li>
-            <li><a href="academy_cinema.php">colchester cinema</a></li>
-            <li><a href="article.php">reviews</a></li>
-
-
-
-
-   <div class="dropdown">   
-        <li><a href="accommodation.php">Accommodation</a></li>
-          <div class="dropdown-content">
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          <li><a href="">#</a></li>
-          </ul>
-        </div>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-light dropdown-toggle" href="accommodation.php" id="navbarDropdown" 
+          role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            accommodation
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <li><a class="dropdown-item" href="accommodation.php">Greyfriars</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Best Western Marks Tey Hotel</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Dragonfly Hotel Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Five Lakes Resort</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Best Western The Rose </a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Brook Red Lion Hotel</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Maison Talbooth, Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Milsoms, Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Hotel Wivenhoe House, Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Hotel white heart, Colchester</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Old Thatch Bambers Green.</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Chudleigh Hotel.</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Downham Hall.</a></li><hr>
+                    <li><a class="dropdown-item" href="accommodation.php">Pages Hotel & Guesthouse.</a></li><hr>
+                </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
     </div>
-    <hr id="hrr">
-    
-</div>
-</div>
+  </div>
 </nav>
 
 
@@ -75,7 +72,7 @@
               
 
 
-  <div id="about">
+  <div class="about">
           <h3>Accommodations:</h3>
           <p>located in Colchester it has been known as Britain's oldest recorded town, based on a reference by the Roman writer, Pliny the Elder.
             In around AD77 while describing the island of Anglesey.</p>
@@ -110,7 +107,6 @@
   
       for some reason the badges are showing color so i manually put them in, using css style at the bottom of this section 
       -->
-      <div id="showtimes">
           <div class="row text-center">         
               <div class="col-md-3 mb-3 card h-200">
                     <img class="card-img-top" src="./Img/beast.jpg" alt="beautyandthebeast">
@@ -257,26 +253,6 @@
 </div>
 </div>
 
-                 <style>
-                 .col-md-3 {
-                     color:#333;
-                     margin-left: 7%;
-                 }
-                 .badge-success{
-                     color:white;
-                     background-color: lightskyblue;
-                 }
-                .col-md-3 {
-                    font-size: 0.8em;
-                 }
-                </style>
-                <!---- ============================================= end showtimes =============================================-->
-
-
-
-
-  
-
 
     <div class="container my-5">
         <ul class="nav nav-inline">
@@ -303,11 +279,31 @@
       <footer>
         &copy;Colchester-2021 
     </footer>
-
-
-
-
     </div>
+
+                 <style>
+                   *{
+                      text-align: center;
+                   }
+                   .about{
+                     margin:5%;
+                   }
+                 .col-md-3 {
+                     color:#333;
+                 }
+                 .badge-success{
+                     color:white;
+                     background-color: lightskyblue;
+                 }
+                .col-md-3 {
+                    font-size: 0.8em;
+                 }
+                </style>
+
+
+
+
+  
 
     <!-- Optional JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
